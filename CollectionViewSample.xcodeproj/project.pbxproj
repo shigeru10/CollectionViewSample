@@ -15,6 +15,8 @@
 		B6758AD61E6AE75E009718EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6758AD41E6AE75E009718EF /* LaunchScreen.storyboard */; };
 		B6758AE11E6AE75E009718EF /* CollectionViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6758AE01E6AE75E009718EF /* CollectionViewSampleTests.swift */; };
 		B6758AEC1E6AE75E009718EF /* CollectionViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6758AEB1E6AE75E009718EF /* CollectionViewSampleUITests.swift */; };
+		B6758AFB1E6AFB88009718EF /* ScrollCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6758AF91E6AFB88009718EF /* ScrollCollectionViewCell.swift */; };
+		B6758AFC1E6AFB88009718EF /* ScrollCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6758AFA1E6AFB88009718EF /* ScrollCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B6758AE71E6AE75E009718EF /* CollectionViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6758AEB1E6AE75E009718EF /* CollectionViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewSampleUITests.swift; sourceTree = "<group>"; };
 		B6758AED1E6AE75E009718EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6758AF91E6AFB88009718EF /* ScrollCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollCollectionViewCell.swift; sourceTree = "<group>"; };
+		B6758AFA1E6AFB88009718EF /* ScrollCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScrollCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				B6758AD41E6AE75E009718EF /* LaunchScreen.storyboard */,
 				B6758AD71E6AE75E009718EF /* Info.plist */,
 				B6758ACF1E6AE75E009718EF /* CollectionViewSample.xcdatamodeld */,
+				B6758AF91E6AFB88009718EF /* ScrollCollectionViewCell.swift */,
+				B6758AFA1E6AFB88009718EF /* ScrollCollectionViewCell.xib */,
 			);
 			path = CollectionViewSample;
 			sourceTree = "<group>";
@@ -238,6 +244,7 @@
 				B6758AD61E6AE75E009718EF /* LaunchScreen.storyboard in Resources */,
 				B6758AD31E6AE75E009718EF /* Assets.xcassets in Resources */,
 				B6758ACE1E6AE75E009718EF /* Main.storyboard in Resources */,
+				B6758AFC1E6AFB88009718EF /* ScrollCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +272,7 @@
 				B6758AD11E6AE75E009718EF /* CollectionViewSample.xcdatamodeld in Sources */,
 				B6758ACB1E6AE75E009718EF /* ViewController.swift in Sources */,
 				B6758AC91E6AE75E009718EF /* AppDelegate.swift in Sources */,
+				B6758AFB1E6AFB88009718EF /* ScrollCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

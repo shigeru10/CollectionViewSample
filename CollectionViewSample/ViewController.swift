@@ -20,7 +20,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         let layout = UICollectionViewFlowLayout()
         sampleCollectionView = UICollectionView(frame: view.frame, collectionViewLayout: layout)
         
-//        sampleCollectionView.register(sampleCollectionViewCell.self)
+        sampleCollectionView.register(UINib(nibName: "ScrollCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "ScrollCell")
         sampleCollectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "MyCell")
         
         // デフォルトの背景色が黒らしいので、白くする
@@ -43,9 +43,15 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
 
     // セルの生成、カスタムセルなどを呼び出す
     public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell: UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyCell", for: indexPath)
-        cell.backgroundColor = UIColor.blue
-        return cell
+        switch indexPath.row {
+        case 0:
+            let cell: ScrollCollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "ScrollCell", for: indexPath) as! ScrollCollectionViewCell
+            return cell
+        default:
+            let cell: UICollectionViewCell = collectionView.dequeueReusableCell(withReuseIdentifier: "MyCell", for: indexPath)
+            cell.backgroundColor = UIColor.blue
+            return cell
+        }
     }
     
     // セルのサイズを規定する
@@ -53,7 +59,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
         
         let height:CGFloat = CGFloat(UIScreen.main.bounds.height)
         let width:CGFloat = CGFloat(UIScreen.main.bounds.width)
-        return CGSize(width:width*0.5, height:height*0.5)
+        return CGSize(width:width, height:height*0.5)
     }
 
 }
