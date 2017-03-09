@@ -38,7 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B60392AE1E71363D007961EF /* wercker.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wercker.yml; sourceTree = "<group>"; };
+		B60392AE1E71363D007961EF /* wercker.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = wercker.yml; path = ../wercker.yml; sourceTree = "<group>"; };
 		B6758AC51E6AE75D009718EF /* CollectionViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6758AC81E6AE75E009718EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6758ACA1E6AE75E009718EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +85,6 @@
 		B6758ABC1E6AE75D009718EF = {
 			isa = PBXGroup;
 			children = (
-				B60392AE1E71363D007961EF /* wercker.yml */,
 				B6758AC71E6AE75D009718EF /* CollectionViewSample */,
 				B6758ADF1E6AE75E009718EF /* CollectionViewSampleTests */,
 				B6758AEA1E6AE75E009718EF /* CollectionViewSampleUITests */,
@@ -106,6 +105,7 @@
 		B6758AC71E6AE75D009718EF /* CollectionViewSample */ = {
 			isa = PBXGroup;
 			children = (
+				B60392AE1E71363D007961EF /* wercker.yml */,
 				B6758AC81E6AE75E009718EF /* AppDelegate.swift */,
 				B6758ACA1E6AE75E009718EF /* ViewController.swift */,
 				B6758ACC1E6AE75E009718EF /* Main.storyboard */,
