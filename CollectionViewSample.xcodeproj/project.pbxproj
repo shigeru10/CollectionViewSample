@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B60392AF1E71363D007961EF /* wercker.yml in Resources */ = {isa = PBXBuildFile; fileRef = B60392AE1E71363D007961EF /* wercker.yml */; };
 		B6758AC91E6AE75E009718EF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6758AC81E6AE75E009718EF /* AppDelegate.swift */; };
 		B6758ACB1E6AE75E009718EF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6758ACA1E6AE75E009718EF /* ViewController.swift */; };
 		B6758ACE1E6AE75E009718EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6758ACC1E6AE75E009718EF /* Main.storyboard */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B60392AE1E71363D007961EF /* wercker.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wercker.yml; sourceTree = "<group>"; };
 		B6758AC51E6AE75D009718EF /* CollectionViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6758AC81E6AE75E009718EF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6758ACA1E6AE75E009718EF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		B6758ABC1E6AE75D009718EF = {
 			isa = PBXGroup;
 			children = (
+				B60392AE1E71363D007961EF /* wercker.yml */,
 				B6758AC71E6AE75D009718EF /* CollectionViewSample */,
 				B6758ADF1E6AE75E009718EF /* CollectionViewSampleTests */,
 				B6758AEA1E6AE75E009718EF /* CollectionViewSampleUITests */,
@@ -241,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B60392AF1E71363D007961EF /* wercker.yml in Resources */,
 				B6758AD61E6AE75E009718EF /* LaunchScreen.storyboard in Resources */,
 				B6758AD31E6AE75E009718EF /* Assets.xcassets in Resources */,
 				B6758ACE1E6AE75E009718EF /* Main.storyboard in Resources */,
@@ -517,6 +521,7 @@
 				B6758AF21E6AE75E009718EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6758AF31E6AE75E009718EF /* Build configuration list for PBXNativeTarget "CollectionViewSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +530,7 @@
 				B6758AF51E6AE75E009718EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6758AF61E6AE75E009718EF /* Build configuration list for PBXNativeTarget "CollectionViewSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +539,7 @@
 				B6758AF81E6AE75E009718EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
